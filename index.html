@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>rootsiey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Lato:wght@300;400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- ENTER -->
+  <div id="enter-overlay">
+    <span class="enter-text">you are welcome here.</span>
+  </div>
+
+
+  <!-- BG -->
+  <video id="parallax-bg" autoplay muted loop playsinline>
+    <source src="/media/herbalroom.mp4" type="video/mp4">
+  </video>
+
+  <!-- SITE -->
+  <div id="site">
+
+    <!-- ══ HERO CARD ══ -->
+    <div class="hero-card">
+
+      <!-- glimmer star -->
+      <span class="glimmer">
+        <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- four-point star -->
+          <path d="M15 1 L16.4 12 L27 11 L17.2 15 L27 19 L16.4 18 L15 29 L13.6 18 L3 19 L12.8 15 L3 11 L13.6 12 Z"
+            fill="rgba(212,180,131,0.88)" stroke="rgba(139,98,69,0.4)" stroke-width="0.5" />
+          <!-- bright centre -->
+          <circle cx="15" cy="15" r="2" fill="rgba(255,248,225,0.98)" />
+          <!-- small radiating lines -->
+          <line x1="15" y1="4" x2="15" y2="7" stroke="rgba(212,180,131,.6)" stroke-width="0.7" />
+          <line x1="15" y1="23" x2="15" y2="26" stroke="rgba(212,180,131,.6)" stroke-width="0.7" />
+          <line x1="4" y1="15" x2="7" y2="15" stroke="rgba(212,180,131,.6)" stroke-width="0.7" />
+          <line x1="23" y1="15" x2="26" y2="15" stroke="rgba(212,180,131,.6)" stroke-width="0.7" />
+        </svg>
+      </span>
+
+      <!-- ornate border — all four corners + centre rules -->
+      <svg class="hero-border" xmlns="http://www.w3.org/2000/svg">
+
+        <!-- ╔ TOP-LEFT: full filigree ─────────────────────── -->
+        <!-- outer L arms -->
+        <line x1="0" y1="52" x2="0" y2="0" stroke="rgba(139,98,69,.58)" stroke-width="1.1" />
+        <line x1="0" y1="0" x2="68" y2="0" stroke="rgba(139,98,69,.58)" stroke-width="1.1" />
+        <!-- inner parallel -->
+        <line x1="9" y1="43" x2="9" y2="9" stroke="rgba(139,98,69,.28)" stroke-width="0.65" />
+        <line x1="9" y1="9" x2="59" y2="9" stroke="rgba(139,98,69,.28)" stroke-width="0.65" />
+        <!-- serif feet outer -->
+        <line x1="-5" y1="52" x2="7" y2="52" stroke="rgba(139,98,69,.58)" stroke-width="1.1" />
+        <line x1="68" y1="-5" x2="68" y2="7" stroke="rgba(139,98,69,.58)" stroke-width="1.1" />
+        <!-- serif feet inner -->
+        <line x1="-4" y1="43" x2="6" y2="43" stroke="rgba(139,98,69,.28)" stroke-width="0.65" />
+        <line x1="59" y1="-4" x2="59" y2="6" stroke="rgba(139,98,69,.28)" stroke-width="0.65" />
+        <!-- corner square -->
+        <rect x="-2.5" y="-2.5" width="8" height="8" fill="none" stroke="rgba(139,98,69,.52)" stroke-width="0.8" />
+        <!-- diamond at inner corner -->
+        <polygon points="9,9 13,13 9,17 5,13" fill="none" stroke="rgba(139,98,69,.38)" stroke-width="0.65" />
+        <!-- diagonal crosshatch -->
+        <line x1="16" y1="0" x2="0" y2="16" stroke="rgba(139,98,69,.11)" stroke-width="0.5" />
+        <line x1="28" y1="0" x2="0" y2="28" stroke="rgba(139,98,69,.06)" stroke-width="0.4" />
+        <!-- tick marks top -->
+        <line x1="24" y1="0" x2="24" y2="6" stroke="rgba(139,98,69,.28)" stroke-width="0.6" />
+        <line x1="40" y1="0" x2="40" y2="4" stroke="rgba(139,98,69,.2)" stroke-width="0.5" />
+        <line x1="54" y1="0" x2="54" y2="4" stroke="rgba(139,98,69,.15)" stroke-width="0.4" />
+        <!-- tick marks left -->
+        <line x1="0" y1="22" x2="6" y2="22" stroke="rgba(139,98,69,.28)" stroke-width="0.6" />
+        <line x1="0" y1="36" x2="4" y2="36" stroke="rgba(139,98,69,.2)" stroke-width="0.5" />
+
+        <!-- ╗ TOP-RIGHT: woven ──────────────────────────── -->
+        <line x1="calc(100% - 68px)" y1="0" x2="100%" y2="0" stroke="rgba(139,98,69,.58)" stroke-width="1.1" />
+        <line x1="100%" y1="0" x2="100%" y2="52px" stroke="rgba(139,98,69,.58)" stroke-width="1.1" />
+        <line x1="calc(100% - 59px)" y1="9px" x2="calc(100% - 9px)" y2="9px" stroke="rgba(139,98,69,.28)"
+          stroke-width="0.65" />
+        <line x1="calc(100% - 9px)" y1="9px" x2="calc(100% - 9px)" y2="43px" stroke="rgba(139,98,69,.28)"
+          stroke-width="0.65" />
+        <!-- serifs -->
+        <line x1="calc(100% - 68px)" y1="-5px" x2="calc(100% - 68px)" y2="7px" stroke="rgba(139,98,69,.58)"
+          stroke-width="1.1" />
+        <line x1="calc(100% + 5px)" y1="52px" x2="calc(100% - 7px)" y2="52px" stroke="rgba(139,98,69,.58)"
+          stroke-width="1.1" />
+        <line x1="calc(100% - 59px)" y1="-4px" x2="calc(100% - 59px)" y2="6px" stroke="rgba(139,98,69,.28)"
+          stroke-width="0.65" />
+        <line x1="calc(100% + 4px)" y1="43px" x2="calc(100% - 6px)" y2="43px" stroke="rgba(139,98,69,.28)"
+          stroke-width="0.65" />
+        <!-- corner square -->
+        <rect x="calc(100% - 5.5px)" y="-2.5px" width="8" height="8" fill="none" stroke="rgba(139,98,69,.52)"
+          stroke-width="0.8" />
+        <!-- dot at corner -->
+        <circle cx="100%" cy="0" r="2.8" fill="rgba(139,98,69,.52)" />
+        <circle cx="calc(100% - 9px)" cy="9px" r="2" fill="rgba(139,98,69,.28)" />
+        <!-- tick marks -->
+        <line x1="calc(100% - 24px)" y1="0" x2="calc(100% - 24px)" y2="6px" stroke="rgba(139,98,69,.28)"
+          stroke-width="0.6" />
+        <line x1="calc(100% - 40px)" y1="0" x2="calc(100% - 40px)" y2="4px" stroke="rgba(139,98,69,.2)"
+          stroke-width="0.5" />
+        <line x1="100%" y1="22px" x2="calc(100% - 6px)" y2="22px" stroke="rgba(139,98,69,.28)" stroke-width="0.6" />
+        <line x1="100%" y1="36px" x2="calc(100% - 4px)" y2="36px" stroke="rgba(139,98,69,.2)" stroke-width="0.5" />
+        <!-- diagonal -->
+        <line x1="calc(100% - 16px)" y1="0" x2="100%" y2="16px" stroke="rgba(139,98,69,.11)" stroke-width="0.5" />
+        <line x1="calc(100% - 28px)" y1="0" x2="100%" y2="28px" stroke="rgba(139,98,69,.06)" stroke-width="0.4" />
+
+        <!-- ╚ BOTTOM-LEFT: filigree ────────────────────── -->
+        <line x1="0" y1="calc(100% - 52px)" x2="0" y2="100%" stroke="rgba(139,98,69,.58)" stroke-width="1.1" />
+        <line x1="0" y1="100%" x2="68px" y2="100%" stroke="rgba(139,98,69,.58)" stroke-width="1.1" />
+        <line x1="9px" y1="calc(100% - 43px)" x2="9px" y2="calc(100% - 9px)" stroke="rgba(139,98,69,.28)"
+          stroke-width="0.65" />
+        <line x1="9px" y1="calc(100% - 9px)" x2="59px" y2="calc(100% - 9px)" stroke="rgba(139,98,69,.28)"
+          stroke-width="0.65" />
+        <!-- serifs -->
+        <line x1="-5px" y1="calc(100% - 52px)" x2="7px" y2="calc(100% - 52px)" stroke="rgba(139,98,69,.58)"
+          stroke-width="1.1" />
+        <line x1="68px" y1="calc(100% + 5px)" x2="68px" y2="calc(100% - 7px)" stroke="rgba(139,98,69,.58)"
+          stroke-width="1.1" />
+        <line x1="-4px" y1="calc(100% - 43px)" x2="6px" y2="calc(100% - 43px)" stroke="rgba(139,98,69,.28)"
+          stroke-width="0.65" />
+        <line x1="59px" y1="calc(100% + 4px)" x2="59px" y2="calc(100% - 6px)" stroke="rgba(139,98,69,.28)"
+          stroke-width="0.65" />
+        <!-- corner square -->
+        <rect x="-2.5px" y="calc(100% - 5.5px)" width="8" height="8" fill="none" stroke="rgba(139,98,69,.52)"
+          stroke-width="0.8" />
+        <!-- diamond -->
+        <polygon points="9,calc(100% - 9px) 13,calc(100% - 5px) 9,calc(100%) 5,calc(100% - 5px)" fill="none"
+          stroke="rgba(139,98,69,.38)" stroke-width="0.65" />
+        <!-- diagonal -->
+        <line x1="0" y1="calc(100% - 16px)" x2="16px" y2="100%" stroke="rgba(139,98,69,.11)" stroke-width="0.5" />
+        <line x1="0" y1="calc(100% - 28px)" x2="28px" y2="100%" stroke="rgba(139,98,69,.06)" stroke-width="0.4" />
+        <!-- ticks -->
+        <line x1="24px" y1="100%" x2="24px" y2="calc(100% - 6px)" stroke="rgba(139,98,69,.28)" stroke-width="0.6" />
+        <line x1="40px" y1="100%" x2="40px" y2="calc(100% - 4px)" stroke="rgba(139,98,69,.2)" stroke-width="0.5" />
+        <line x1="0" y1="calc(100% - 22px)" x2="6px" y2="calc(100% - 22px)" stroke="rgba(139,98,69,.28)"
+          stroke-width="0.6" />
+        <line x1="0" y1="calc(100% - 36px)" x2="4px" y2="calc(100% - 36px)" stroke="rgba(139,98,69,.2)"
+          stroke-width="0.5" />
+
+        <!-- ╝ BOTTOM-RIGHT: woven ──────────────────────── -->
+        <line x1="calc(100% - 68px)" y1="100%" x2="100%" y2="100%" stroke="rgba(139,98,69,.58)" stroke-width="1.1" />
+        <line x1="100%" y1="calc(100% - 52px)" x2="100%" y2="100%" stroke="rgba(139,98,69,.58)" stroke-width="1.1" />
+        <line x1="calc(100% - 59px)" y1="calc(100% - 9px)" x2="calc(100% - 9px)" y2="calc(100% - 9px)"
+          stroke="rgba(139,98,69,.28)" stroke-width="0.65" />
+        <line x1="calc(100% - 9px)" y1="calc(100% - 43px)" x2="calc(100% - 9px)" y2="calc(100% - 9px)"
+          stroke="rgba(139,98,69,.28)" stroke-width="0.65" />
+        <!-- serifs -->
+        <line x1="calc(100% - 68px)" y1="calc(100% + 5px)" x2="calc(100% - 68px)" y2="calc(100% - 7px)"
+          stroke="rgba(139,98,69,.58)" stroke-width="1.1" />
+        <line x1="calc(100% + 5px)" y1="calc(100% - 52px)" x2="calc(100% - 7px)" y2="calc(100% - 52px)"
+          stroke="rgba(139,98,69,.58)" stroke-width="1.1" />
+        <!-- corner square -->
+        <rect x="calc(100% - 5.5px)" y="calc(100% - 5.5px)" width="8" height="8" fill="none"
+          stroke="rgba(139,98,69,.52)" stroke-width="0.8" />
+        <!-- dot -->
+        <circle cx="100%" cy="100%" r="2.8" fill="rgba(139,98,69,.52)" />
+        <circle cx="calc(100% - 9px)" cy="calc(100% - 9px)" r="2" fill="rgba(139,98,69,.28)" />
+        <!-- ticks -->
+        <line x1="calc(100% - 24px)" y1="100%" x2="calc(100% - 24px)" y2="calc(100% - 6px)" stroke="rgba(139,98,69,.28)"
+          stroke-width="0.6" />
+        <line x1="100%" y1="calc(100% - 22px)" x2="calc(100% - 6px)" y2="calc(100% - 22px)" stroke="rgba(139,98,69,.28)"
+          stroke-width="0.6" />
+        <!-- diagonal -->
+        <line x1="calc(100% - 16px)" y1="100%" x2="100%" y2="calc(100% - 16px)" stroke="rgba(139,98,69,.11)"
+          stroke-width="0.5" />
+
+        <!-- ── CENTRE RULES top ─ ruled line + thin parallel + diamond ── -->
+        <line x1="90px" y1="0" x2="calc(100% - 90px)" y2="0" stroke="rgba(139,98,69,.2)" stroke-width="0.8" />
+        <line x1="105px" y1="5px" x2="calc(100% - 105px)" y2="5px" stroke="rgba(139,98,69,.1)" stroke-width="0.4" />
+        <!-- top centre diamond -->
+        <polygon points="50%,-7 calc(50% + 6px),0 50%,7 calc(50% - 6px),0" fill="rgba(201,169,122,.55)"
+          stroke="rgba(139,98,69,.42)" stroke-width="0.7" />
+
+        <!-- ── CENTRE RULES bottom ── -->
+        <line x1="90px" y1="100%" x2="calc(100% - 90px)" y2="100%" stroke="rgba(139,98,69,.2)" stroke-width="0.8" />
+        <line x1="105px" y1="calc(100% - 5px)" x2="calc(100% - 105px)" y2="calc(100% - 5px)" stroke="rgba(139,98,69,.1)"
+          stroke-width="0.4" />
+        <!-- bottom centre diamond -->
+        <polygon points="50%,calc(100% - 7px) calc(50% + 6px),100% 50%,calc(100% + 7px) calc(50% - 6px),100%"
+          fill="rgba(201,169,122,.55)" stroke="rgba(139,98,69,.42)" stroke-width="0.7" />
+
+        <!-- ── side mid-markers (left + right) ── -->
+        <line x1="0" y1="50%" x2="5px" y2="50%" stroke="rgba(139,98,69,.25)" stroke-width="0.7" />
+        <polygon points="0,calc(50% - 5px) 6px,50% 0,calc(50% + 5px)" fill="rgba(201,169,122,.4)"
+          stroke="rgba(139,98,69,.32)" stroke-width="0.6" />
+        <line x1="100%" y1="50%" x2="calc(100% - 5px)" y2="50%" stroke="rgba(139,98,69,.25)" stroke-width="0.7" />
+        <polygon points="100%,calc(50% - 5px) calc(100% - 6px),50% 100%,calc(50% + 5px)" fill="rgba(201,169,122,.4)"
+          stroke="rgba(139,98,69,.32)" stroke-width="0.6" />
+      </svg>
+
+      <h1 class="site-name" data-text="rootsiey">rootsiey</h1>
+      <p class="site-tagline">wherever you wandered, rest now.</p>
+      <div class="ornament">✦</div>
+    </div>
+
+    <!-- ══ CARDS ══ -->
+    <div class="cards">
+
+      <!-- ABOUT — style D filigree (TR + BL) -->
+      <div class="card">
+        <span class="glimmer">
+          <svg viewBox="0 0 30 30" fill="none">
+            <path d="M15 1 L16.4 12 L27 11 L17.2 15 L27 19 L16.4 18 L15 29 L13.6 18 L3 19 L12.8 15 L3 11 L13.6 12 Z"
+              fill="rgba(212,180,131,.88)" stroke="rgba(139,98,69,.38)" stroke-width="0.5" />
+            <circle cx="15" cy="15" r="2" fill="rgba(255,248,225,.98)" />
+          </svg>
+        </span>
+        <svg class="cborder" xmlns="http://www.w3.org/2000/svg">
+          <!-- TR filigree -->
+          <line x1="calc(100% - 44px)" y1="0" x2="100%" y2="0" stroke="rgba(139,98,69,.62)" stroke-width="1" />
+          <line x1="100%" y1="0" x2="100%" y2="44px" stroke="rgba(139,98,69,.62)" stroke-width="1" />
+          <line x1="calc(100% - 36px)" y1="8px" x2="calc(100% - 8px)" y2="8px" stroke="rgba(139,98,69,.3)"
+            stroke-width="0.6" />
+          <line x1="calc(100% - 8px)" y1="8px" x2="calc(100% - 8px)" y2="36px" stroke="rgba(139,98,69,.3)"
+            stroke-width="0.6" />
+          <line x1="calc(100% - 20px)" y1="0" x2="100%" y2="20px" stroke="rgba(139,98,69,.1)" stroke-width="0.5" />
+          <rect x="calc(100% - 3px)" y="-3px" width="6" height="6" fill="none" stroke="rgba(139,98,69,.54)"
+            stroke-width="0.75" />
+          <polygon points="calc(100% - 8px),8 calc(100% - 5px),11 calc(100% - 8px),14 calc(100% - 11px),11" fill="none"
+            stroke="rgba(139,98,69,.36)" stroke-width="0.6" />
+          <line x1="calc(100% - 27px)" y1="0" x2="calc(100% - 27px)" y2="5px" stroke="rgba(139,98,69,.26)"
+            stroke-width="0.6" />
+          <line x1="100%" y1="27px" x2="calc(100% - 5px)" y2="27px" stroke="rgba(139,98,69,.26)" stroke-width="0.6" />
+          <!-- BL filigree -->
+          <line x1="0" y1="calc(100% - 44px)" x2="0" y2="100%" stroke="rgba(139,98,69,.62)" stroke-width="1" />
+          <line x1="0" y1="100%" x2="44px" y2="100%" stroke="rgba(139,98,69,.62)" stroke-width="1" />
+          <line x1="8px" y1="calc(100% - 36px)" x2="8px" y2="calc(100% - 8px)" stroke="rgba(139,98,69,.3)"
+            stroke-width="0.6" />
+          <line x1="8px" y1="calc(100% - 8px)" x2="36px" y2="calc(100% - 8px)" stroke="rgba(139,98,69,.3)"
+            stroke-width="0.6" />
+          <line x1="0" y1="calc(100% - 20px)" x2="20px" y2="100%" stroke="rgba(139,98,69,.1)" stroke-width="0.5" />
+          <rect x="-3px" y="calc(100% - 3px)" width="6" height="6" fill="none" stroke="rgba(139,98,69,.54)"
+            stroke-width="0.75" />
+          <polygon points="8,calc(100% - 8px) 11,calc(100% - 5px) 8,calc(100%) 5,calc(100% - 5px)" fill="none"
+            stroke="rgba(139,98,69,.36)" stroke-width="0.6" />
+          <line x1="27px" y1="100%" x2="27px" y2="calc(100% - 5px)" stroke="rgba(139,98,69,.26)" stroke-width="0.6" />
+          <line x1="0" y1="calc(100% - 27px)" x2="5px" y2="calc(100% - 27px)" stroke="rgba(139,98,69,.26)"
+            stroke-width="0.6" />
+        </svg>
+        <p class="card-label">a note</p>
+        <h2 class="card-title">hey, you made it.</h2>
+        <p class="card-body">this place is mine, and for a moment, it's yours too. there's no rush here. stay as long as
+          you like. everything you feel is allowed.</p>
+      </div>
+
+      <!-- PLAYER — rose-tinted D -->
+      <div class="player-card">
+        <span class="glimmer">
+          <svg viewBox="0 0 30 30" fill="none">
+            <path d="M15 1 L16.4 12 L27 11 L17.2 15 L27 19 L16.4 18 L15 29 L13.6 18 L3 19 L12.8 15 L3 11 L13.6 12 Z"
+              fill="rgba(212,180,131,.88)" stroke="rgba(139,98,69,.38)" stroke-width="0.5" />
+            <circle cx="15" cy="15" r="2" fill="rgba(255,248,225,.98)" />
+          </svg>
+        </span>
+        <svg class="cborder"
+          style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;overflow:visible;z-index:3;"
+          xmlns="http://www.w3.org/2000/svg">
+          <!-- TR filigree rose -->
+          <line x1="calc(100% - 44px)" y1="0" x2="100%" y2="0" stroke="rgba(196,164,164,.68)" stroke-width="1" />
+          <line x1="100%" y1="0" x2="100%" y2="44px" stroke="rgba(196,164,164,.68)" stroke-width="1" />
+          <line x1="calc(100% - 36px)" y1="8px" x2="calc(100% - 8px)" y2="8px" stroke="rgba(196,164,164,.33)"
+            stroke-width="0.6" />
+          <line x1="calc(100% - 8px)" y1="8px" x2="calc(100% - 8px)" y2="36px" stroke="rgba(196,164,164,.33)"
+            stroke-width="0.6" />
+          <line x1="calc(100% - 20px)" y1="0" x2="100%" y2="20px" stroke="rgba(196,164,164,.1)" stroke-width="0.5" />
+          <rect x="calc(100% - 3px)" y="-3px" width="6" height="6" fill="none" stroke="rgba(196,164,164,.56)"
+            stroke-width="0.75" />
+          <polygon points="calc(100% - 8px),8 calc(100% - 5px),11 calc(100% - 8px),14 calc(100% - 11px),11" fill="none"
+            stroke="rgba(196,164,164,.38)" stroke-width="0.6" />
+          <!-- BL filigree rose -->
+          <line x1="0" y1="calc(100% - 44px)" x2="0" y2="100%" stroke="rgba(196,164,164,.68)" stroke-width="1" />
+          <line x1="0" y1="100%" x2="44px" y2="100%" stroke="rgba(196,164,164,.68)" stroke-width="1" />
+          <line x1="8px" y1="calc(100% - 36px)" x2="8px" y2="calc(100% - 8px)" stroke="rgba(196,164,164,.33)"
+            stroke-width="0.6" />
+          <line x1="8px" y1="calc(100% - 8px)" x2="36px" y2="calc(100% - 8px)" stroke="rgba(196,164,164,.33)"
+            stroke-width="0.6" />
+          <line x1="0" y1="calc(100% - 20px)" x2="20px" y2="100%" stroke="rgba(196,164,164,.1)" stroke-width="0.5" />
+          <rect x="-3px" y="calc(100% - 3px)" width="6" height="6" fill="none" stroke="rgba(196,164,164,.56)"
+            stroke-width="0.75" />
+          <polygon points="8,calc(100% - 8px) 11,calc(100% - 5px) 8,calc(100%) 5,calc(100% - 5px)" fill="none"
+            stroke="rgba(196,164,164,.38)" stroke-width="0.6" />
+        </svg>
+        <div class="player-inner">
+          <p class="player-label">now playing</p>
+          <p class="player-track-name" id="track-name">no one is rushing you.</p>
+          <div class="player-controls">
+            <button class="play-btn" id="play-btn" aria-label="play/pause">
+              <svg id="icon-play" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+              <svg id="icon-pause" viewBox="0 0 24 24" fill="currentColor" style="display:none">
+                <path d="M6 19h4V5H6zm8-14v14h4V5z" />
+              </svg>
+            </button>
+            <div class="player-progress-wrap">
+              <div class="progress-bar-track" id="progress-track">
+                <div class="progress-bar-fill" id="progress-fill"></div>
+                <div class="progress-thumb" id="progress-thumb"></div>
+              </div>
+              <span class="player-time" id="player-time">0:00 / 0:00</span>
+            </div>
+          </div>
+          <div class="volume-wrap">
+            <span class="vol-icon">♪</span>
+            <input class="volume-slider" type="range" id="volume-slider" min="0" max="1" step="0.01" value="0.5" />
+          </div>
+        </div>
+      </div>
+
+      <!-- CLOSING — style D -->
+      <div class="card">
+        <span class="glimmer">
+          <svg viewBox="0 0 30 30" fill="none">
+            <path d="M15 1 L16.4 12 L27 11 L17.2 15 L27 19 L16.4 18 L15 29 L13.6 18 L3 19 L12.8 15 L3 11 L13.6 12 Z"
+              fill="rgba(212,180,131,.88)" stroke="rgba(139,98,69,.38)" stroke-width="0.5" />
+            <circle cx="15" cy="15" r="2" fill="rgba(255,248,225,.98)" />
+          </svg>
+        </span>
+        <svg class="cborder" xmlns="http://www.w3.org/2000/svg">
+          <line x1="calc(100% - 44px)" y1="0" x2="100%" y2="0" stroke="rgba(139,98,69,.62)" stroke-width="1" />
+          <line x1="100%" y1="0" x2="100%" y2="44px" stroke="rgba(139,98,69,.62)" stroke-width="1" />
+          <line x1="calc(100% - 36px)" y1="8px" x2="calc(100% - 8px)" y2="8px" stroke="rgba(139,98,69,.3)"
+            stroke-width="0.6" />
+          <line x1="calc(100% - 8px)" y1="8px" x2="calc(100% - 8px)" y2="36px" stroke="rgba(139,98,69,.3)"
+            stroke-width="0.6" />
+          <line x1="calc(100% - 20px)" y1="0" x2="100%" y2="20px" stroke="rgba(139,98,69,.1)" stroke-width="0.5" />
+          <rect x="calc(100% - 3px)" y="-3px" width="6" height="6" fill="none" stroke="rgba(139,98,69,.54)"
+            stroke-width="0.75" />
+          <polygon points="calc(100% - 8px),8 calc(100% - 5px),11 calc(100% - 8px),14 calc(100% - 11px),11" fill="none"
+            stroke="rgba(139,98,69,.36)" stroke-width="0.6" />
+          <line x1="calc(100% - 27px)" y1="0" x2="calc(100% - 27px)" y2="5px" stroke="rgba(139,98,69,.26)"
+            stroke-width="0.6" />
+          <line x1="100%" y1="27px" x2="calc(100% - 5px)" y2="27px" stroke="rgba(139,98,69,.26)" stroke-width="0.6" />
+          <line x1="0" y1="calc(100% - 44px)" x2="0" y2="100%" stroke="rgba(139,98,69,.62)" stroke-width="1" />
+          <line x1="0" y1="100%" x2="44px" y2="100%" stroke="rgba(139,98,69,.62)" stroke-width="1" />
+          <line x1="8px" y1="calc(100% - 36px)" x2="8px" y2="calc(100% - 8px)" stroke="rgba(139,98,69,.3)"
+            stroke-width="0.6" />
+          <line x1="8px" y1="calc(100% - 8px)" x2="36px" y2="calc(100% - 8px)" stroke="rgba(139,98,69,.3)"
+            stroke-width="0.6" />
+          <line x1="0" y1="calc(100% - 20px)" x2="20px" y2="100%" stroke="rgba(139,98,69,.1)" stroke-width="0.5" />
+          <rect x="-3px" y="calc(100% - 3px)" width="6" height="6" fill="none" stroke="rgba(139,98,69,.54)"
+            stroke-width="0.75" />
+          <polygon points="8,calc(100% - 8px) 11,calc(100% - 5px) 8,calc(100%) 5,calc(100% - 5px)" fill="none"
+            stroke="rgba(139,98,69,.36)" stroke-width="0.6" />
+          <line x1="27px" y1="100%" x2="27px" y2="calc(100% - 5px)" stroke="rgba(139,98,69,.26)" stroke-width="0.6" />
+          <line x1="0" y1="calc(100% - 27px)" x2="5px" y2="calc(100% - 27px)" stroke="rgba(139,98,69,.26)"
+            stroke-width="0.6" />
+        </svg>
+        <p class="card-label">before you go</p>
+        <h2 class="card-title">you are understood.</h2>
+        <p class="card-body">whatever brought you here — i hope it helped, even a little. take care of yourself.
+          seriously.</p>
+      </div>
+
+    </div>
+    <footer>rootsiey · made with warmth · 2026</footer>
+  </div>
+
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
